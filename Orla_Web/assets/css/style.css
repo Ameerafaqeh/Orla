@@ -1,0 +1,20 @@
+/* -------------------------------------------
+   ملف التنسيقات الرئيسي لمشروع أورلا للإلكترونيات
+   المسار: assets/css/style.css
+---------------------------------------------- */
+
+/* يمكنك هنا إضافة التنسيقات المخصصة التي لا يوفرها Tailwind CSS */
+
+/* مثال: تأثير بسيط لمكونات معينة */
+.product-grid>div:hover {
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-5px);
+    /* رفع العنصر قليلاً عند التمرير */
+}
+
+/* يمكنك إضافة تنسيقات الخطوط هنا */
+/* @font-face {
+    font-family: 'MyFont';
+    src: url('../fonts/MyFont.woff2') format('woff2');
+} */
+/* body { font-family: 'MyFont', sans-serif; } */
